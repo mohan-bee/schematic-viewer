@@ -70,7 +70,7 @@ export const SchematicViewer = ({
   spiceSimulationEnabled = false,
   disableGroups = false,
   onSchematicComponentClicked,
-  showSchematicPorts = false,
+  showSchematicPorts = true,
   onSchematicPortClicked,
 }: Props) => {
   if (debug) {
